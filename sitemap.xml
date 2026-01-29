@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main Portfolio Page -->
+  <url>
+    <loc>https://chagizac.github.io/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://chagizac.github.io/assets/images/og-image.png</image:loc>
+      <image:title>CHAGIZAC Portfolio - 모바일 앱 개발자</image:title>
+      <image:caption>Flutter 전문 모바일 앱 개발자 CHAGIZAC의 프로젝트 포트폴리오</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Throttle Money Project -->
+  <url>
+    <loc>https://chagizac.github.io/Throttle-Money/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chagizac.github.io/Throttle-Money/assets/images/app-icon.png</image:loc>
+      <image:title>쓰로틀 머니 앱 아이콘</image:title>
+      <image:caption>배달 라이더를 위한 통합 수익 관리 앱</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://chagizac.github.io/Throttle-Money/privacy.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://chagizac.github.io/Throttle-Money/terms.html</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Vibe Lotto Project -->
+  <url>
+    <loc>https://chagizac.github.io/vibe-lotto/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About Section (Anchor Link) -->
+  <url>
+    <loc>https://chagizac.github.io/#about</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Projects Section (Anchor Link) -->
+  <url>
+    <loc>https://chagizac.github.io/#projects</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section (Anchor Link) -->
+  <url>
+    <loc>https://chagizac.github.io/#contact</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

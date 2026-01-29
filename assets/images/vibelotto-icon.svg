@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- 배경 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="512" height="512" rx="90" ry="90" fill="url(#bg-gradient)"/>
+  
+  <!-- 로또 공 1 -->
+  <circle cx="140" cy="200" r="60" fill="#FF6B6B" filter="url(#glow)"/>
+  <text x="140" y="220" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">7</text>
+  
+  <!-- 로또 공 2 -->
+  <circle cx="256" cy="140" r="60" fill="#4ECDC4" filter="url(#glow)"/>
+  <text x="256" y="160" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">21</text>
+  
+  <!-- 로또 공 3 -->
+  <circle cx="372" cy="200" r="60" fill="#FFE66D" filter="url(#glow)"/>
+  <text x="372" y="220" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">35</text>
+  
+  <!-- 로또 공 4 -->
+  <circle cx="200" cy="340" r="60" fill="#95E1D3" filter="url(#glow)"/>
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">42</text>
+  
+  <!-- 로또 공 5 -->
+  <circle cx="312" cy="340" r="60" fill="#DDA0DD" filter="url(#glow)"/>
+  <text x="312" y="360" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">58</text>
+  
+  <!-- 별 장식 -->
+  <polygon points="440,60 448,80 468,80 452,92 458,112 440,100 422,112 428,92 412,80 432,80" fill="#FFD700" filter="url(#glow)"/>
+  <polygon points="60,452 68,472 88,472 72,484 78,504 60,492 42,504 48,484 32,472 52,472" fill="#FFD700" filter="url(#glow)"/>
+</svg>

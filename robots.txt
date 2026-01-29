@@ -1,0 +1,26 @@
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Disallow backup directories and sensitive files
+Disallow: /*/_backup/
+Disallow: /*/node_modules/
+Disallow: /*/.git/
+Disallow: /*/tmp/
+
+# Disallow CSS and JS files from being indexed (optional)
+Disallow: /*/assets/css/
+Disallow: /*/assets/js/
+
+# Disallow non-HTML files from being indexed
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://chagizac.github.io/sitemap.xml
+Sitemap: https://chagizac.github.io/Throttle-Money/sitemap.xml
